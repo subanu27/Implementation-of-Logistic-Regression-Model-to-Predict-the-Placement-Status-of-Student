@@ -24,7 +24,7 @@ Program to implement the the Logistic Regression Model to Predict the Placement 
 Developed by: Subanu.K
 RegisterNumber:  212219040152
 */
-```
+
 import pandas as pd
 data=pd.read_csv('Placement_Data.csv')
 data.head()
@@ -65,9 +65,9 @@ from sklearn.metrics import classification_report
 classification_report1 = classification_report(y_test,y_pred)
 print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
-
+```
 ## Output:
-Original data(first five columns)
+Original data(first five columns):
 
 ![r1](https://user-images.githubusercontent.com/87663343/174066212-ac0d404f-37ee-44fd-b8b4-020cc674a7a8.png)
 
@@ -87,11 +87,11 @@ Data after encoding:
 
 ![r5](https://user-images.githubusercontent.com/87663343/174066903-5f205e5d-7e24-458f-a001-2f907d0beb91.png)
 
-X data
+**X data:**
 
 ![r6](https://user-images.githubusercontent.com/87663343/174067015-1d326834-d9fc-44fe-9649-acd45f4c434a.png)
 
-Y data
+Y data:
 
 ![r7](https://user-images.githubusercontent.com/87663343/174067121-3f2c146d-3dd5-49ea-829e-f447e698e514.png)
 
