@@ -67,51 +67,51 @@ print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 ## Output:
-**Original data(first five columns):**
+### **Original data(first five columns):**
 
 ![r1](https://user-images.githubusercontent.com/87663343/174066212-ac0d404f-37ee-44fd-b8b4-020cc674a7a8.png)
 
-**Data after dropping unwanted columns(first five):**
+### **Data after dropping unwanted columns(first five):**
 
 ![r2](https://user-images.githubusercontent.com/87663343/174066422-fc4823a4-f9fe-44ce-a8b1-e77c45fc739f.png)
 
-**checking the presence of null values:**
+### **checking the presence of null values:**
 
 ![r3](https://user-images.githubusercontent.com/87663343/174066544-81ec1fe5-f237-432d-864b-ac754d729c12.png)
 
-**checking the presence of duplicated values:**
+### **checking the presence of duplicated values:**
 
 ![r4](https://user-images.githubusercontent.com/87663343/174066684-2af2ffb8-f2ad-4846-94e6-74542c36b6c8.png)
 
-**Data after encoding:**
+### **Data after encoding:**
 
 ![r5](https://user-images.githubusercontent.com/87663343/174066903-5f205e5d-7e24-458f-a001-2f907d0beb91.png)
 
-**X data:**
+### **X data:**
 
 ![r6](https://user-images.githubusercontent.com/87663343/174067015-1d326834-d9fc-44fe-9649-acd45f4c434a.png)
 
-**Y data:**
+### **Y data:**
 
 ![r7](https://user-images.githubusercontent.com/87663343/174067121-3f2c146d-3dd5-49ea-829e-f447e698e514.png)
 
-**predicted values:**
+### **predicted values:**
 
 ![image](https://user-images.githubusercontent.com/87663343/174067238-2c35da25-57e4-4a0a-93eb-e41a264a93ec.png)
 
-**Accuracy score:**
+### **Accuracy score:**
 
 ![image](https://user-images.githubusercontent.com/87663343/174067333-42ff9a06-d4c7-4853-8f3c-ac7c536964ce.png)
 
-**Confusion matrix:**
+### **Confusion matrix:**
 
 ![image](https://user-images.githubusercontent.com/87663343/174067396-d715abca-0e66-4c24-8ba5-7ca030cd50c7.png)
 
-**classification report:**
+### **classification report:**
 
 ![image](https://user-images.githubusercontent.com/87663343/174067499-b2ba68a7-2419-469c-ba8b-1d59b209c0b7.png)
 
-**Predicting Output from regression model:**
+### **Predicting Output from regression model:**
 
 ![image](https://user-images.githubusercontent.com/87663343/174067630-a4be1cc6-abbc-44b4-82d4-ac0c576a5be2.png)
 
